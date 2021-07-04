@@ -1,0 +1,151 @@
+/**{
+
+  margin: 0;
+  padding: 0;
+}
+*/
+
+body{
+font-family: 'Poppins', sans-serif;
+font-size: 100%;
+width: 100%;
+height: 100%;
+background: #FFFFFF;
+position: relative;
+top: 0px;
+left: 0px;
+/*overflow: hidden;*/
+}
+
+.logo_tag{
+padding-top: 2%;
+}
+
+.logo_tag>img{
+position: relative;
+margin-left: 20%;
+}
+
+#msg1{
+width: 100%;/*345px;*/
+height: 65px;
+margin:auto;
+text-align: center;
+}
+
+
+#msg1>h2{
+color: #1A1A1A;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 43px;
+line-height: 100%;
+}
+
+
+#intro{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16.5px;
+text-align: center;
+}
+
+#intro-forgot{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16.5px;
+text-align: left;
+}
+
+
+#holder{
+width: 495.6px;
+margin:auto;
+margin-top:50px;
+padding: 30px;
+}
+
+
+#holder-form{
+width: 720px;
+margin:auto;
+margin-top:50px;
+padding: 30px;
+text-align: center;
+}
+
+
+
+
+input[type=text],input[type=tel],input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-color: #F08B35;
+}
+
+
+button {
+background-color: #F08B35;
+color: white;
+padding: 2px 35px;
+margin: auto;/*8px 0;*/
+border: none;
+cursor: pointer;
+border-radius:20px;
+width: 495.6px;
+height: 55px;
+left: 435px;
+top: 600px;
+}
+
+button:hover {
+  opacity: 0.8;
+  background-color: black;
+}
+
+
+
+/*MY ADDITION*/
+
+@media screen and (max-width: 800px) {
+
+#msg1>h2{
+font-size: 30px;
+}
+
+#intro{
+font-size: 14px;
+}
+
+#intro-forgot{
+font-size: 14px;
+}
+
+button{
+width: 300px;;
+}
+
+
+#holder{
+width: 300.6px;
+margin: auto;
+margin-top: 50px;
+padding: 30px;
+text-align: left;
+}
+
+#msg1 #msg1-forgot {
+    text-align: left;
+    font-size: 14px;
+}
+
+
+}

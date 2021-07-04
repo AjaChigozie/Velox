@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="./dashboard.css" rel="stylesheet" />
+	<title>Velox Exchange</title>
+</head>
+<body style="right: 0;">
+	<header>
+		
+		<img class="logo" src="../Images/logo.png">
+		<nav>
+			<ul class="nav_links">
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">Refer and Earn</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Sign out</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<input id="go_back" type="button" value="&#60;">
+
+<div class="top_words">
+	<a href="buyform.html"><h2><span style="font-family: Poppins;font-weight: 600;font-size: 42px;color:#E0E0E0;">Buy</span></a> &nbsp; &nbsp;
+		<span style= "color: #E0E0E0;"> <font size="18">|</font> </span> &nbsp; &nbsp;
+		<a href="sellform.html"><span style="color: #1A1A1A;font-family: Poppins;font-weight: 600;font-size: 42px;">Sell</span></h2></a>
+	</div>
+
+
+
+	<div class="order-form">
+		<form action="#" name="Sell">
+			<select id="coin_type" name="coin_type">
+            	<option value="">Coin type</option>
+            	<option value="1">*Please select*</option>
+				<option value="volvo">Bitcoin (BTC)</option>
+    			<option value="saab">Ethereum (ETH)</option>
+    			<option value="fiat">Binance Smart Chain (BSC)</option>
+    			<option value="audi">Dodge</option>
+  			</select>
+
+  			<br><br><br><br><br>
+  			<label>Amount</label>
+    		<input id="amnt_dolls" type="text" name="amnt" placeholder="Amount in dollar NGN|USD">
+  			<p>Equivalent in Naira: N2,000,0000</p>
+
+
+  			<br>
+  			<label>Bank name</label>
+  			<select id="bank-name" name="bank-name">
+  				<option value="">Bank Name</option>
+            	<option value="1">*Please select*</option>
+				<option value="volvo">Access bank</option>
+    			<option value="saab">First Bank</option>
+    			<option value="fiat">GT-Bank</option>
+    		</select>
+
+
+    		<br><br>
+    		<p>
+    		<label>Account name</label>
+    		<input style="text-align: right;" id="wall_addr" type="text" name="addr" placeholder="Paste"></p>
+
+
+
+    		<label>Account number</label>
+    		<input type="text" name="acct-num">
+
+    		<button id="proceed" style="position: relative;"><h3><b>Proceed &nbsp; &#62;</b> </h3></button>
+
+		</form>
+	</div>
+
+
+
+</body>
+</html>

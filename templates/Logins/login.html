@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+	<link href="css/sign.css" rel="stylesheet" />
+	<link href="css/mycss.css" rel="stylesheet" />
+	<title>Login</title>
+</head>
+
+<body>
+
+	 <div class="logo_tag" style="text-align: center;">
+	 	<a href="#"><img src="../Images/logo2.png"></a>
+	 </div>
+
+    	<div id="msg1"><h2>Welcome back!</h2>
+
+    		<p id="intro">
+    		New to Velox?<a href="sign_up.html" id="link1" style="text-decoration: none; color:#F08B35;"> Create an account</a>	
+    		</p>
+    	</div>
+    	
+    	<div id="holder">
+    		<form>
+    		
+			 
+			    
+				    <!--Email Address Field-->
+				      <label for="email" id="mail" style="color: black;">Email Address</label>
+				      <input type="text" placeholder="example@email.com" name="mail" required>
+
+					<!-- Password field-->
+				      <label for="psw" id="pword" style="color: black;">Password</label>
+				      
+				      <input type="password" name="psw" required>
+
+			    	<!--Can't remember password-->
+
+					    <div style="text-align: right; margin-bottom: 6%; margin-top: 7px;" >
+					      <span class="psw"><a href="forgot_password.html" style="text-decoration: none; color: #F08B35;">Can't remember password?</a></span>
+					    </div>
+
+					  	<!-- Sign-in button -->
+					      <button type="submit" id="sign_btn" onclick="submit()" value="Reset form"><h3>Sign in</h3></button>
+				
+			</form>
+			</div>
+				 
+ 
+<script >
+function submit(){
+// alert ("Wadup");
+document.getElementById("holder").reset();
+
+}
+</script>
+</body>
+
+</html>

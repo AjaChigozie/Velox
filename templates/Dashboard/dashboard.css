@@ -1,0 +1,455 @@
+body{
+	background-color: #white;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	bottom: 0;
+	/*flex-shrink: 3;*/
+
+}
+
+li, a{
+font-family: Poppins,sans-serif;
+font-weight: 500;
+font-size: 18px;
+color: #FFFFFF;
+text-decoration: none;
+margin-right: 18px;
+}
+
+header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px, 10%;
+background-color: black;
+border-radius: 0 0 18px 18px;
+height: 80px;
+}
+
+.logo{
+position: relative;
+left: 70px;
+top: 9px;
+height: 33px;
+cursor: pointer;
+}
+
+.nav_links{
+	list-style: none;
+}
+
+
+.nav_links li{
+	display: inline-block;
+	padding: 0px 10px;
+
+}
+
+
+
+.nav_links li a{
+	transition: all 0.3s ease 0s;
+}
+
+
+.nav_links li a:hover{
+	transition: all 0.3s ease 0s;
+	color: orange;
+}
+
+.action-bar{
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+.action-bar>h2{
+color: #1A1A1A;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 42px;
+}
+
+
+.action-btns{
+position: relative;
+width: 395.8px;
+height: 77px;
+left: 480.8px;
+top: 12px;
+text-align: inherit;
+}
+
+.action-btns>h3{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+}
+
+
+/*.action-btns:hover{
+transition: all 0.3s ease 0s;
+color: blueviolet;
+}*/
+
+
+button{
+width: 191.8px;
+height: 77px;
+top: 21px;
+border-radius: 12px;
+border: 1px solid #828282;
+cursor: pointer;
+}
+
+
+#buy-btn{
+ float: right;
+background-color: white;
+color: #000000;
+position: relative;
+top: -20px;
+}
+
+#sell-btn{
+float: left;
+background-color: #F08B35;
+color: #FFFFFF;
+}
+
+
+
+.txn-history{
+position: absolute;
+width: 100%;
+height: 598px;
+right: 0px;
+top: 426px;
+background: #FAFAFA;
+border-radius: 12px 12px 0px 0px;
+text-align: center;	
+}
+
+.empty-txns{
+margin: 150px;
+padding-left: 10px;
+}	
+
+
+.empty-txns>h3{
+position: absolute;
+width: 246px;
+height: 26px;
+left: calc(50% - 246px/2);
+bottom: 200px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+text-align: center;
+color: #1A1A1A;	
+}
+
+.empty-txns>p{
+position: absolute;
+width: 353px;
+height: 22px;
+left: 500px;
+top: 367px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+text-align: center;
+color: #828282;
+}
+
+
+/*Majorly dashboard_txn*/
+.my-txns{
+	/*background-color: blueviolet;*/
+	top: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.txns{
+height: 97px;
+margin: 5px;
+}
+
+
+.txns-order{
+float: left;
+height: 97px;
+text-align: left
+}
+
+#cost{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+color: #1A1A1A;
+}
+
+#currency{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #828282;
+}
+
+
+
+.order-stamp{
+float: right;
+height: 97px;
+}
+
+
+.order-stamp>h3{
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+}
+
+
+.order-stamp>p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+color: #828282;
+}
+
+
+.status-red{
+color: #EB5757;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+}
+
+.status-green{
+color: #27AE60;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+}
+
+.status-orange{
+color: #F2C94C;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+}
+
+.more{
+text-align: center;
+top: 500px;
+position: relative;
+}
+
+
+
+/*For Buy Form*/
+
+#go_back{
+color: #828282;
+position: absolute;
+width: 48px;
+height: 48px;
+left: 102px;
+top: 141px;
+cursor: pointer;
+background: #FFFFFF;
+border: 2px solid #828282;
+box-sizing: border-box;
+border-radius: 12px;
+}
+
+
+
+.top_words{
+position: relative;
+text-align: center;
+top: 70px;
+cursor: pointer;
+width: 480.7px;
+left: 480px;
+}
+
+
+
+.order-form{
+position: absolute;
+width: 495.6px;
+height: 550px;
+left: 472px;
+top: 283px;
+}
+
+
+#coin_type{
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 18px;
+position: absolute;
+width: 495.6px;
+height: 65px;
+}
+
+
+#amnt_dols{
+padding-top: 50px;
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 18px;
+position: inherit;
+background-color: red;
+width: 495.6px;
+height: 65px;
+}
+
+
+#coin_network{
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 18px;
+position: relative;
+width: 495.6px;
+height: 65px;
+}
+
+
+#bank-name{
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 18px;
+position: relative;
+width: 495.6px;
+height: 65px;
+}
+
+
+input{
+border: 1px solid #828282;
+box-sizing: border-box;
+border-radius: 18px;
+width: 495.6px;
+height: 65px;
+
+}
+
+
+.confirmation-btn>button{
+position: relative;
+background: #F08B35;
+border-radius: 18px;
+width: 495px;
+height: 65px;
+text-align: center;
+}
+
+#proceed{
+color: #FFFFFF;
+text-align: center;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+width: 495px;
+height: 65px;
+background: #F08B35;
+}
+
+/*From here nacbotics*/
+
+
+
+.order-info{
+position: relative;
+width: 610px;
+height: 222px;
+left: 415px;
+background: #FAFAFA;
+border-radius: 12px;
+}
+
+.confirmation{
+text-align: center;
+position: relative;
+top: 203px;
+}
+
+.confirmation>h1{
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 74px;
+color: #F08B35;
+}
+
+.confirmation>p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #1A1A1A;
+}
+
+#payment-type{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 135%;
+text-align: center;
+color: #828282;
+}
+
+.confirmation-btn{
+text-align: center;
+position: relative;
+top: 200px;
+left: 50px;
+}
+
+.confirmation-btn>p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 135%;
+color: #828282;
+}
+
+#radio-btn{
+position: absolute;
+width: 15px;
+height: 16px;
+left: 411px;
+border: 1px solid #434343;
+box-sizing: border-box;
+border-radius: 2px;
+}
+
+.order-info-keys>p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 24px;
+color: #828282;
+}

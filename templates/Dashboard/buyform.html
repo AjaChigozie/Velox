@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link href="./dashboard.css" rel="stylesheet" />
+	<title>Velox Exchange</title>
+</head>
+<body style="right: 0;">
+	<header>
+		
+		<img class="logo" src="../Images/logo.png">
+		<nav>
+			<ul class="nav_links">
+				<li><a href="#">Dashboard</a></li>
+				<li><a href="#">Refer and Earn</a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Sign out</a></li>
+			</ul>
+		</nav>
+	</header>
+
+<input id="go_back" type="button" value="&#60;">
+
+			<div class="top_words">
+				
+					<a href="buyform.html"><h2><span style="font-family: Poppins;font-weight: 600;font-size: 42px;color: #1A1A1A;;">Buy</span></a> &nbsp; &nbsp; 
+					<span style= "color: #E0E0E0;"> <font size="18">|</font> </span> &nbsp; &nbsp;
+
+					<a href="sellform.html"><span style="color: #E0E0E0;font-family: Poppins;font-weight: 600;font-size: 42px;">Sell</span></h2></a>
+			</div>
+
+	<div class="order-form">
+		<form action="#" name="Buy">
+			<select id="coin_type" name="coin_type">
+            	<option value="">Coin type</option>
+            	<option value="1">*Please select*</option>
+				<option value="btc">Bitcoin (BTC)</option>
+    			<option value="eth">Ethereum (ETH)</option>
+    			<option value="bsc">Binance Smart Chain (BSC)</option>
+    			<option value="doge">Doge</option>
+  			</select>
+
+
+  			<br><br><br><br><br>
+  			<label>Amount</label>
+    		<input id="amnt_dolls" type="text" name="amnt" placeholder="Amount in dollar NGN|USD">
+  			<p>Equivalent in Naira: N2,000,0000</p>
+
+  			
+  			<br>
+  			<label>Network</label>
+  			<select id="coin_network" name="coin_network">
+  				<option value="">Coin Network</option>
+            	<option value="1">*Please select*</option>
+				<option value="BEP-20">Bitcoin (BTC)</option>
+    			<option value="ERC-20">Ethereum (ETH)</option>
+    			<option value="BSC">Binance Smart Chain (BSC)</option>
+    		</select>
+
+    		<br><br>
+    		<p>
+    		<label>Address</label>
+    		<input style="text-align: right;" id="wall_addr" type="text" name="addr" placeholder="Paste"></p>
+
+    		<button id="proceed"><h3><b>Proceed &nbsp; &#62;</b> </h3></button>
+
+		</form>
+	</div>
+
+
+</body>
+</html>
